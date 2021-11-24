@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Banking.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "HOSTED_ENVIRONMENT": "Development",
+        "DATA__CONNECTIONSTRING": "Data Source=InMemorySample;Mode=Memory;Cache=Shared"
+      },
+      "applicationUrl": "http://localhost:3001"
+    }
+  }
+}
